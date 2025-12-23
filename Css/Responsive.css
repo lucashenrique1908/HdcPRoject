@@ -1,0 +1,118 @@
+/* Tablets (601px a 900px) */
+@media screen and (max-width: 900px) {
+
+    .qualidades {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+
+    .seguranca,
+    .performace,
+    .suporte {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    #dominioInput {
+        width: 70%;
+    }
+
+    #dominioBtn {
+        width: 60%;
+    }
+
+    .project-idea textarea,
+    .project-idea input[type="text"] {
+        width: 50%;
+    }
+}
+
+/* Mobile (401px a 600px) */
+@media screen and (max-width: 600px) {
+
+    .setup {
+        height: 400px;
+    }
+
+    .setup-filho {
+        font-size: 1.5em;
+    }
+
+    .qualidades {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    .seguranca,
+    .performace,
+    .suporte {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .dominio h1 {
+        font-size: 2em;
+    }
+
+    .dominio p {
+        font-size: 1.2em;
+    }
+
+    #dominioInput {
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    #dominioBtn {
+        width: 80%;
+        font-size: 1.2em;
+        padding: 15px;
+    }
+
+    .form-subscribe,
+    .project-idea {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .project-idea textarea,
+    .project-idea input[type="text"] {
+        width: 100%;
+    }
+
+    .project-idea input[type="submit"] {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #paragrafo-questionario {
+        font-size: .8rem;
+        margin: 10px;
+    }
+}
+
+/* Mobile Pequeno (até 400px) */
+@media screen and (max-width: 400px) {
+
+    .nav-contain a {
+        font-size: .7rem;
+    }
+
+    .nav-contain button {
+        padding: .4rem;
+        background-color: transparent;
+        color: white;
+        border: 1px solid #fff;
+        font-size: .7rem;
+        width: 100%;
+    }
+        .nav-contain button:hover {
+            background-color: rgb(47, 46, 66);
+            cursor: pointer;
+        }
+
+}
